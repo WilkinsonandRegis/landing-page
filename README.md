@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Wilkinson & Regis Website Project
 
-## Getting Started
+![Wilkinson & Regis Logo](https://sanydelw.sirv.com/Images/Original%20Logo%20side.png)
 
-First, run the development server:
+## Services
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-``` 
+Wilkinson & Regis specializes in buying houses and apartment complexes. We provide a hassle-free selling experience with a focus on securing the strongest offer for your property.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## About Us
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+At Wilkinson & Regis, we understand that selling your home is a significant moment in your life. Our dedicated team, led by seasoned professionals with over 28 years of experience, is committed to guiding you through a seamless selling process. We combine expertise and a strong commitment to your goals to ensure your property receives the attention it deserves.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Why Wilkinson & Regis (W&R)
 
-## Learn More
+- Receive a strong cash offer within 48 hours.
+- No listing, prep work, or showings required.
+- Avoid 6% agent fees and costly repairs.
+- Choose your close date from 21-60 days.
 
-To learn more about Next.js, take a look at the following resources:
+### Traditional Home Sale vs. Selling to W&R
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Selling to Wilkinson & Regis | Traditional Home Sale |
+| ---------------------------- | ---------------------- |
+| Strong cash offer within 48 hours | Risk of buyer financing delaying closing |
+| No listing, prep work, or showings | Disruptive home staging for open house showings |
+| Avoid 6% agent fees and repairs | Paying agent commission and contractors for repairs |
+| Choose your close date from 21-60 days | Uncertain closing time |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Ready for your offer? [Get my offer](#)
 
-## Deploy on Vercel
+## FAQ - Frequently Asked Questions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Q.1 What type of properties are you looking for?**
+We are looking for residential properties that may need some repairs. We purchase everything from 200k single-family homes to 5M apartment complexes, preferably garden style.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Q.2 How does the process work?**
+
+**Q.3 Are you wholesale-friendly?**
+
+**Q.4 What areas do you buy properties in?**
+
+## Meet the Team
+
+### Chris Wilkinson
+![Chris Wilkinson](https://sanydelw.sirv.com/Images/HeadShot%20Chris.png)
+
+Meet Chris Wilkinson, born and raised in Stone Mountain, GA. With over 7 years of experience in real estate lending, acquisitions, and deal structuring, Chris's passion for people and dedication allows him to produce exceptional results for his clients. In his free time, he enjoys cooking, fitness training, and supporting the Falcons, Hawks, and Braves.
+
+### Vin Wilkinson
+![Vin Wilkinson](https://sanydelw.sirv.com/Images/Headshot%20Calvin.png)
+
+Meet Vin Wilkinson, an entrepreneur rooted in Atlanta with over eight years of experience in real estate acquisitions and investments. Vin seamlessly shifted his expertise into connecting people and creating valuable investment opportunities. Beyond business, Vin enjoys exploring Atlanta's diverse culinary scene, attending local performances, and passionately supporting the Falcons, Braves, and Hawks.
+
+## Contact Us
+
+Are you a wholesaler? We accept assignment contracts.
+
+### Reasons to Sell with W&R
+- Want to sell fast
+- Avoid costly repairs with contractors
+- Inherited property
+- Avoid foreclosure
+
+
+## Background
+
+Wilkinson & Regis is a family-owned and operated real estate investment firm with a background spanning over 28 years. We look forward to working with you to achieve your real estate goals.
