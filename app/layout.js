@@ -6,13 +6,13 @@ const myApi = process.env.NEXT_PUBLIC_VERCEL_MAPS_API_KEY;
 
 export const metadata = {
     title: "Wilkinson & Regis | Real Estate Agency",
-    description: "Wilkinson & Regis is a family owned and operated real estate investment firm. We look forward to working with you to achieve your goals.",
+    description: "Sell your house or apartment with ease.",
     keywords: ["Real Estate", "Property Sales", "House Selling", "Apartment Complexes", "Realty Services", "Property Listings", "Home Marketing", "Real Estate Transactions", "Residential Sales", "Commercial Property", "Listing Agent", "Property Valuation", "Selling Process", "Market Analysis", "Client Representation", "Negotiation", "Closing Services", "Investment Properties", "Housing Market", "Real Estate Consultation"],
     authors: [{name: "Chris WIlkinson"}, {name: "Vin Wilkinson"}],
     creator: "Fabian Ajokubi",
     openGraph: {
         title: "Wilkinson & Regis | Real Estate Agency",
-        description: "Wilkinson & Regis is a family owned and operated real estate investment firm. We look forward to working with you to achieve your goals.",
+        description: "Sell your house or apartment with ease.",
         url: "wilkinsonregis.com",
         locale: "en_US",
         images: [
@@ -27,7 +27,7 @@ export const metadata = {
     twitter: {
         card: 'summary_large_image',
         title: 'Wilkinson & Regis | Real Estate Agency',
-        description: 'Wilkinson & Regis is a family owned and operated real estate investment firm. We look forward to working with you to achieve your goals.',
+        description: 'Sell your house or apartment with ease.',
         images: ['https://sanydelw.sirv.com/Images/r-architecture-wDDfbanbhl8-unsplash.jpg'],
     },
     icons: {
@@ -39,6 +39,19 @@ export const metadata = {
             url: 'icons/favicon-32x32.png',
         },
     },
+    robots: {
+        index: false,
+        follow: true,
+        nocache: true,
+        googleBot: {
+          index: true,
+          follow: false,
+          noimageindex: true,
+          'max-video-preview': -1,
+          'max-image-preview': 'large',
+          'max-snippet': -1,
+        },
+      },
 }
 
 export default function RootLayout({ children }) {
