@@ -6,9 +6,7 @@ export default function getOfferPage() {
     return (
         <main>
             <NavSection type={0} />
-            <PageScreens>
-                <MapPage />
-            </PageScreens>
+            <PageScreens/>
         </main>
     )
 }

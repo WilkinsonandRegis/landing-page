@@ -4,10 +4,11 @@ import { useRouter } from "next/navigation";
 import useCookies from "@/customHooks/useCookie";
 import FormModal from "./components/FormModal";
 import { Toaster } from "react-hot-toast";
+import MapPage from "./subPages/mapPage";
 
 export const screenContext = React.createContext();
 
-export default function PageScreens({children}) {
+export default function PageScreens() {
     const { getCookie } = useCookies();
     const [coordinates, setCoordinates] = useState(null);
     const [addressText, setAddressText] = useState(null);
@@ -34,7 +35,7 @@ export default function PageScreens({children}) {
     return (
         <screenContext.Provider value={{coordinates, addressText, setModalOpen, handleContinue }}>
             <section className="flex flex-col">
-                {children}
+                <MapPage />
                 {modalOpen && <FormModal />}
                 <Toaster
                     position="top-center"
