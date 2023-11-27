@@ -1,6 +1,5 @@
 "use client"
 import React, { useEffect, useState } from "react";
-import MapPage from "./subPages/mapPage";
 import { useRouter } from "next/navigation";
 import useCookies from "@/customHooks/useCookie";
 import FormModal from "./components/FormModal";
@@ -8,7 +7,7 @@ import { Toaster } from "react-hot-toast";
 
 export const screenContext = React.createContext();
 
-export default function PageScreens() {
+export default function PageScreens({children}) {
     const { getCookie } = useCookies();
     const [coordinates, setCoordinates] = useState(null);
     const [addressText, setAddressText] = useState(null);
@@ -35,7 +34,7 @@ export default function PageScreens() {
     return (
         <screenContext.Provider value={{coordinates, addressText, setModalOpen, handleContinue }}>
             <section className="flex flex-col">
-                <MapPage />
+                {children}
                 {modalOpen && <FormModal />}
                 <Toaster
                     position="top-center"
