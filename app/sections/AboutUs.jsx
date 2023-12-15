@@ -9,8 +9,8 @@ export default function AboutUs() {
                 heritage. We combined our Father&apos;s last name Wilkinson with our Mother&apos;s maiden name Regis
                 to ensure that every client feels like they are a part of our family
             </span>
-            <section className="flex flex-wrap gap-24 w-full justify-center">
-                <div className="flex flex-col items-center flex-1 min-w-[15rem] gap-8">
+            <section className="flex flex-wrap gap-24 w-full justify-center items-start">
+                <div className="flex flex-col-reverse items-center flex-1 min-w-[15rem] gap-8">
                     <div className="grid gap-6 sm:text-xl text-base">
                         <span className="sm:text-2xl text-xl text-primary-light uppercase">Chris Wilkinson</span>
                         <span>
@@ -27,21 +27,21 @@ export default function AboutUs() {
                             src={"https://sanydelw.sirv.com/Images/HeadShot%20Chris.png"}
                             srcSet={"https://sanydelw.sirv.com/Images/HeadShot%20Chris.png"}
                             priori gap-8ty
-                            alt="Background"
+                            alt="Chris Wilkinson"
                             className="h-full min-w-full object-cover"
                             width={1000}
                             height={1000}
                         />
                     </div>
                 </div>
-                <div className="flex sm:flex-col flex-col-reverse items-center flex-1 min-w-[15rem] gap-8">
+                <div className="flex flex-col items-center flex-1 min-w-[15rem] gap-8">
                     <div className="min-h-[20rem] aspect-square grid place-items-center overflow-hidden rounded-xl border-[5px] dark:border-white/50 border-black/50 w-full">
 
                         <Image
                             src={"https://sanydelw.sirv.com/Images/Headshot%20Calvin.png"}
                             srcSet={"https://sanydelw.sirv.com/Images/Headshot%20Calvin.png"}
                             priority
-                            alt="Background"
+                            alt="Vin Wilkinson"
                             className="h-full min-w-full object-cover"
                             width={1000}
                             height={1000}
@@ -58,6 +58,25 @@ export default function AboutUs() {
                             Falcons, Braves, and Hawks. His philosophy isn&apos;t just about transactions; he&apos;s about fostering
                             genuine connections and bringing an authentic approach to both professional dealings and personal
                             interests.
+                        </span>
+                    </div>
+                </div>
+                <div className="flex flex-col items-center flex-1 min-w-[15rem] gap-8">
+                    <div className="min-h-[20rem] aspect-square grid place-items-center overflow-hidden rounded-xl border-[5px] dark:border-white/50 border-black/50 w-full">
+                        <Image
+                            src={"https://sanydelw.sirv.com/Images/headshot%20jose.jpg"}
+                            srcSet={"https://sanydelw.sirv.com/Images/headshot%20jose.jpg"}
+                            priority
+                            alt="Jose Hernandez photo"
+                            className="h-full min-w-full object-cover"
+                            width={1000}
+                            height={1000}
+                        />
+                    </div>
+                    <div className="grid gap-6 sm:text-xl text-base">
+                        <span className="sm:text-2xl text-xl text-primary-light uppercase">Jose Hernandez</span>
+                        <span>
+                            Meet Meet <span className="text-primary-light">Jose Hernandez</span>, an entrepreneur born and raised in Atlanta with an abundance of experience in consulting, real estate acquisitions, and investments. Known for his adept ability to bring people together, Jose thrives on building networks and fostering collaborations that drive success. In his free time, Jose embraces an active lifestyle. Whether he's sculpting his physique in the gym, showcasing his skills on the soccer field, or cheering on for Manchester City, he values the balance between work and play. He is not just an entrepreneur; he is a dynamic individual who personifies success.
                         </span>
                     </div>
                 </div>
