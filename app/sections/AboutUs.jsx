@@ -76,7 +76,7 @@ export default function AboutUs() {
                     <div className="grid gap-6 sm:text-xl text-base">
                         <span className="sm:text-2xl text-xl text-primary-light uppercase">Jose Hernandez</span>
                         <span>
-                            Meet Meet <span className="text-primary-light">Jose Hernandez</span>, an entrepreneur born and raised in Atlanta with an abundance of experience in consulting, real estate acquisitions, and investments. Known for his adept ability to bring people together, Jose thrives on building networks and fostering collaborations that drive success. In his free time, Jose embraces an active lifestyle. Whether he's sculpting his physique in the gym, showcasing his skills on the soccer field, or cheering on for Manchester City, he values the balance between work and play. He is not just an entrepreneur; he is a dynamic individual who personifies success.
+                            Meet Meet <span className="text-primary-light">Jose Hernandez</span>, an entrepreneur born and raised in Atlanta with an abundance of experience in consulting, real estate acquisitions, and investments. Known for his adept ability to bring people together, Jose thrives on building networks and fostering collaborations that drive success. In his free time, Jose embraces an active lifestyle. Whether he&apos;s sculpting his physique in the gym, showcasing his skills on the soccer field, or cheering on for Manchester City, he values the balance between work and play. He is not just an entrepreneur; he is a dynamic individual who personifies success.
                         </span>
                     </div>
                 </div>
