@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaPhone } from "react-icons/fa";
 import MobileNav from "./components/MobileNav";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 export const navContect = React.createContext();
 

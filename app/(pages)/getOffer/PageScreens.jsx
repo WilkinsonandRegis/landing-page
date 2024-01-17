@@ -16,6 +16,22 @@ export default function PageScreens() {
     const router = useRouter();
 
     useEffect(() => {
+        // Function to handle resize event
+        const handleResize = () => {
+          // Log the window size information
+          console.log(`Window resized: Width - ${window.innerWidth}, Height - ${window.innerHeight}`);
+        };
+    
+        // Add event listener for resize
+        window.addEventListener('resize', handleResize);
+    
+        // Cleanup function to remove the event listener when the component unmounts
+        return () => {
+          window.removeEventListener('resize', handleResize);
+        };
+      }, []);
+
+    useEffect(() => {
         const coordinatesValue = getCookie("coordinateValue");
         const addressText = getCookie("addressText");
         
@@ -34,7 +50,7 @@ export default function PageScreens() {
 
     return (
         <screenContext.Provider value={{coordinates, addressText, setModalOpen, handleContinue }}>
-            <section className="flex flex-col">
+            <section className="flex-1 flex flex-col">
                 <MapPage />
                 {modalOpen && <FormModal />}
                 <Toaster

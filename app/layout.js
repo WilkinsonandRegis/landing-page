@@ -8,7 +8,7 @@ export const metadata = {
     title: "Wilkinson & Regis | Real Estate Agency",
     description: "Sell your house or apartment with ease.",
     keywords: ["Real Estate", "Property Sales", "House Selling", "Apartment Complexes", "Realty Services", "Property Listings", "Home Marketing", "Real Estate Transactions", "Residential Sales", "Commercial Property", "Listing Agent", "Property Valuation", "Selling Process", "Market Analysis", "Client Representation", "Negotiation", "Closing Services", "Investment Properties", "Housing Market", "Real Estate Consultation"],
-    authors: [{name: "Chris WIlkinson"}, {name: "Vin Wilkinson"}],
+    authors: [{name: "Chris WIlkinson"}, {name: "Vin Wilkinson"}, {name: "Jose Henandez"}],
     creator: "Fabian Ajokubi",
     openGraph: {
         title: "Wilkinson & Regis | Real Estate Agency",

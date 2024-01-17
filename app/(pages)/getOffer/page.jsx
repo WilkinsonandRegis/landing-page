@@ -4,7 +4,7 @@ import PageScreens from './PageScreens';
 
 export default function getOfferPage() {
     return (
-        <main>
+        <main className='h-screen w-screen flex flex-col'>
             <NavSection type={0} />
             <PageScreens/>
         </main>
